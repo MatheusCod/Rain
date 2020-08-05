@@ -1,5 +1,5 @@
 # Rain
-Rain simulation build using Lua programming language and LÖVE 11.3 game engine.
+Rain simulation build using Lua programming language and LÖVE 11.3 framework.
 
 ## How to run the program
 Instructions on how to run the program can be found at: https://love2d.org/wiki/Getting_Started#Running_Games
