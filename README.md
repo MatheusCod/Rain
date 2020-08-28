@@ -12,7 +12,6 @@ Instructions on how to run the program can be found at: https://love2d.org/wiki/
 2. In the main.lua:
 
 ```
-
 Rain = require 'rain'
 
 function love.load()
