@@ -2,7 +2,7 @@
 Rain simulation build using Lua programming language and LÖVE 11.3 framework.
 
 ## Screenshot
-<img src="https://github.com/MatheusCod/Rain/blob/master/screenshot.png" width="400" height="400">
+<img src="https://github.com/MatheusCod/Rain/blob/master/screenshot.png" width="350" height="350">
 
 ## How to run the program
 Instructions on how to run the program can be found at: https://love2d.org/wiki/Getting_Started#Running_Games
