@@ -21,8 +21,8 @@ function love.load()
   love.window.setMode(windowWidth, windowHeight)
 
   -- Rain variables
-  -- deltaX: distance in pixels from the x1 value of a rain line to the x2
-  -- deltaY: distance in pixels from the y1 value of a rain line to the y2
+  -- deltaX: distance in pixels from the x1 value of a rain line to the x2 value
+  -- deltaY: distance in pixels from the y1 value of a rain line to the y2 value
   -- rainAmount: amount of rain drops
   deltaX = 3
   deltaY = 10
