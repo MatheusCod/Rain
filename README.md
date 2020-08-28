@@ -8,7 +8,7 @@ Rain simulation build using Lua programming language and LÖVE 11.3 framework.
 Instructions on how to run the program can be found at: https://love2d.org/wiki/Getting_Started#Running_Games
 
 ## How to use the rain.lua file as a library
-1. Put the rain.lua file in the same directory as your main.lua file
+1. Put the rain.lua file in the same directory as your main.lua file.
 2. In the main.lua:
 
 ```
