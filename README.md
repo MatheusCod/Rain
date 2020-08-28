@@ -10,6 +10,7 @@ Instructions on how to run the program can be found at: https://love2d.org/wiki/
 ## How to use the rain.lua file as a library
 1. Put the rain.lua file in the same directory as your main.lua file
 2. In the main.lua:
+<code>
 '''lua
 Rain = require 'rain'
 
@@ -40,6 +41,7 @@ function love.draw()
   rain:draw()
 end
 '''
+</code>
 
 ## OBS:
 Rain sound is not included within the rain.lua file, it must be used as is in the main.lua file.<br>
