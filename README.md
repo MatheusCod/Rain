@@ -12,18 +12,17 @@ Instructions on how to run the program can be found at: https://love2d.org/wiki/
 2. In the main.lua:
 <code>
 '''
-Rain = require 'rain'
+Rain = require 'rain'        
 
-function love.load()
-  -- Window
-  windowWidth = 800
-  windowHeight = 600
-  love.window.setMode(windowWidth, windowHeight)
+function love.load()        
+  -- Window       
+  windowWidth = 800        
+  windowHeight = 600        
+  love.window.setMode(windowWidth, windowHeight)        
 
-  -- Rain variables
-  -- deltaX: distance in pixels from the x1 value of a rain line to the x2
-  -- deltaY: distance in pixels from the y1 value of a rain line to the y2
-  -- rainAmount: amount of rain drops
+  -- Rain variables        
+  -- deltaY: distance in pixels from the y1 value of a rain line to the y2        
+  -- rainAmount: amount of rain drops        
   deltaX = 3
   deltaY = 10
   rainAmount = 1000
