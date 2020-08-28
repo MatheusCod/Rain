@@ -11,35 +11,35 @@ Instructions on how to run the program can be found at: https://love2d.org/wiki/
 1. Put the rain.lua file in the same directory as your main.lua file
 2. In the main.lua:
 <code>
-'''
-Rain = require 'rain'        
-
-function love.load()        
-  -- Window       
-  windowWidth = 800        
-  windowHeight = 600        
-  love.window.setMode(windowWidth, windowHeight)        
-
-  -- Rain variables        
-  -- deltaY: distance in pixels from the y1 value of a rain line to the y2        
-  -- rainAmount: amount of rain drops        
-  deltaX = 3
-  deltaY = 10
-  rainAmount = 1000
-
-  -- Instantiate rain
-  rain = Rain:new (nil, windowWidth, windowHeight, deltaX, deltaY, rainAmount)
-
-end
-
-function love.update(dt)
-  rain:update(dt)
-end
-
-function love.draw()
-  rain:draw()
-end
-'''
+Rain = require 'rain'<br>
+<br>
+function love.load()<br>
+  -- Window<br>
+  windowWidth = 800<br>
+  windowHeight = 600<br>
+  love.window.setMode(windowWidth, windowHeight)<br>
+  <br>
+  -- Rain variables<br>
+  -- deltaX: distance in pixels from the x1 value of a rain line to the x2<br>
+  -- deltaY: distance in pixels from the y1 value of a rain line to the y2<br>
+  -- rainAmount: amount of rain drops<br>
+  deltaX = 3<br>
+  deltaY = 10<br>
+  rainAmount = 1000<br>
+  <br>
+  -- Instantiate rain<br>
+  rain = Rain:new (nil, windowWidth, windowHeight, deltaX, deltaY, rainAmount)<br>
+  <br>
+end<br>
+<br>
+function love.update(dt)<br>
+  rain:update(dt)<br>
+end<br>
+<br>
+function love.draw()<br>
+  rain:draw()<br>
+end<br>
+</code>
 
 ## OBS:
 Rain sound is not included within the rain.lua file, it must be used as is in the main.lua file.<br>
